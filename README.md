@@ -1382,7 +1382,7 @@
 * [Dradis CE (Community Edition)](https://dradisframework.com/ce/) -  Reporting framework for generating one-click reports (vuln scanning, pentest, etc) -- `Ruby`
 * [Dshell](https://github.com/USArmyResearchLab/Dshell) - Network forensic analysis framework, written by the US Army -- `Python`
 * [EncFS](https://vgough.github.io/encfs/) - Encrypted file system in user space via FUSE -- `C++`
-* [FAW (Forensics Acquisition of Websites)(http://en.fawproject.com/)] - Download and save social media sites, paid version has more features -- `closed source` `Windows`
+* [Forensics Acquisition of Websites (FAW)](http://en.fawproject.com/) - Download and save social media sites, paid version has more features -- `closed source` `Windows`
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki, tons of tools and information -- `wiki`
 * [FTimes](http://sourceforge.net/projects/ftimes/) - System baselining and evidence collection tool -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking -- `various lang`
@@ -1394,8 +1394,9 @@
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework -- `various lang`
 * [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
-* [National Software Reference Library (NSRL)(https://www.nist.gov/software-quality-group/national-software-reference-library-nsrl)] - Large collection of diskprints from various software and malware -- `collection`
+* [National Software Reference Library (NSRL)](https://www.nist.gov/software-quality-group/national-software-reference-library-nsrl) - Large collection of diskprints from various software and malware -- `collection`
 * [Nikto2](https://cirt.net/Nikto2) - Web & app server vulnerability scanner -- `perl`
+* [nmap_vulners](https://github.com/vulnersCom/nmap-vulners) - Emumerate and list vulnerabilities during an nmap scan similar to Nessus -- `collection`
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap -- `various lang`
 * [oclHashcat](https://hashcat.net/oclhashcat/) - World's fastest CPU + GPU password cracker / recovery software -- `C`
 * [OpenSCAP](http://www.open-scap.org/page/Main_Page) - NIST Certified SCAP 1.2 toolkit -- `C`
@@ -1410,18 +1411,19 @@
 * [Prey](https://preyproject.com/) - Open source anti-theft software for almost all platforms -- `shell` `Java` `mobile`
 * [ProcDOT](http://www.procdot.com/) - All in one visual malware analysis and visualization, by CERN -- `closed source` `various lang`
 * [Qubes OS](https://www.qubes-os.org/) - A reasonably secure operating system -- `various lang`
+* [ReconScan](https://github.com/RoliSoft/ReconScan) - Glue together pen testing workflows IFTTT style -- `Python`
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption -- `way cool`
 * [Regshot](https://sourceforge.net/projects/regshot/) - Snapshot and compare the Windows Registry for before/after analysis -- `C`
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
-* [ScoutBot](https://launchpad.net/scoutbot) - Automated network scanner for Raspberry Pi -- `various lang`
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military -- `collection`
 * [SELKS](https://www.stamus-networks.com/open-source/) - Debian based based IDS/IPS with ELK stack, installable or live CD -- `various lang`
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
+* [SPARTA](https://sparta.secforce.com/) - GUI to simplify the scanning and enumeration phases -- `Python`
 * [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
-* [SWORD Dropbox](https://medium.com/@tomac/a-15-openwrt-based-diy-pen-test-dropbox-26a98a5fa5e5) -- $15 OpenWRT based DIY disposable pen-test tool -- `various lang`
+* [SWORD Dropbox](https://medium.com/@tomac/a-15-openwrt-based-diy-pen-test-dropbox-26a98a5fa5e5) -- $15 OpenWRT + Pi based DIY disposable pen-test tool -- `various lang`
 * [symon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing -- `XML!!!!` `Windows`
 * [theZoo](https://github.com/ytisf/theZoo/tree/master/malwares/Binaries) - These are real, do not fuck around -- `collection`
 * [tink](https://github.com/google/tink) - Smiple, small, secure crypto library by Google -- `C++`
@@ -1490,7 +1492,7 @@
 * [Bazel](http://bazel.io/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
 * [Buildbot](http://buildbot.net/) - CI framework -- `Python`
-* [CRIU (Checkpoint-Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [Checkpoint-Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of design patterns with examples -- `collection`
