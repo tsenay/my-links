@@ -65,7 +65,7 @@
 * [X](#vpns-and-tunnels) VPNs and Tunnels
 * [X](#web-and-http-tools) Web and HTTP Tools
 * [X](#web-and-http-performance-analysis-tools) Web and HTTP Performance Analysis Tools
-* [X](#misc-tools-and-utilities) Misc Tools and Utilities
+* [X](#misc-tools-and-learning-opportunities) Misc Tools and Learning Opportunities
 
 ---
 # IT News
@@ -424,11 +424,13 @@
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
 * [Project Atomic](https://www.projectatomic.io/) - Super stripped down Linux OS designed to only run containers and nothing more, aka RHEL Atomic -- `various lang`
+* [Prometheus Operator](https://github.com/coreos/prometheus-operator) - creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
 * [Rocker](https://github.com/grammarly/rocker) - Adds new instructions to the Dockerfile instruction set for smaller images and faster builds -- `Golang`
 * [Tectonic Installer](https://github.com/coreos/tectonic-installer) - Install an opinionated Kubernetes cluster the "Tectonic Way", a sane predefined deployment and workflow -- `various lang`
+* [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
@@ -565,7 +567,6 @@
 * [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim -- `vim`
 * [vim-snippets](https://github.com/honza/vim-snippets) - snipMate & UltiSnip snippets -- `vim`
 * [Vimium](https://vimium.github.io/) - Chrome extension that provides vi/vim style shortcuts for navigation and control -- `CoffeeScript` `Chrome`
-* [Vim Adventures](https://vim-adventures.com/) - A game to learn vim using your browser -- `in-browser`
 * [Vundle](https://github.com/VundleVim/Vundle.vim) - Popular plug-in manager for vim -- `vim`
 * [wasavi](https://github.com/akahuku/wasavi) - vim/vi controls in browser text areas -- `JavaScript` `Firefox` `Chrome`
 * [wxHexEditor](http://www.wxhexeditor.org/) - Free hex editor, disk editor, and big file editor for Linux, Windows and Mac OS X -- `C`
@@ -683,7 +684,6 @@
 * [DBAN (Darik's Boot and Nuke)](https://www.dban.org/) - Spinning disk wiper -- `various lang`
 * [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable Linux ISOs on the same USB drive -- `Windows`
 * [GParted Live](https://gparted.org/livecd.php) - Small, bootable ISO that contains gparted - great for resizing a non-LVM root file system -- `C`
-* [Hiren's BootCD](https://www.hiren.info/pages/bootcd) - Everything.  Seriously.  -- `closed source` `Windows`
 * [Kali Linux](https://www.kali.org/) - Penetration testing Linux distro -- `various lang`
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
 * [NirLauncher](https://launcher.nirsoft.net/) - USB live distro that contains [all of the NirSoft utilities](https://launcher.nirsoft.net/utilities_list.html) and more, essential for Windows -- `closed source` `Windows`
@@ -755,6 +755,7 @@
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX and whatever stats / TSDB you use -- `Java`
 * [KairosDB](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra -- `Java`
 * [Metrics](https://github.com/dropwizard/metrics) - Metrics and instrumentation at both the JVM and application level -- `Java`
+* [Micrometer](http://micrometer.io/) - Provides a simple facade (fake interface) over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in -- `Java`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
 * [Prometheus](https://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached, based on Borgmon -- `Golang`
 * [Sensu](https://sensuapp.org/) - Open source monitoring framework, cloud-focused, dynamic, scalable - also does metrics collection -- `Ruby`
@@ -855,7 +856,6 @@
 * [OpenBGPD](http://www.openbgpd.org/) - Free implementation of BGP v4 -- `C`
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `various lang`
 * [OpenWRT](https://openwrt.org/) - Full Linux distro for consumer-grade routers, allows for tons of non-vendor customization -- `various lang`
-* [PacketLife Networking Cheat Sheets](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more -- `collection`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
 * [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
@@ -1190,6 +1190,7 @@
 * [MySQLtuner-perl](https://github.com/major/MySQLTuner-perl) - Analyzes a MySQL installation and provides suggestions to increase performance -- `perl`
 * [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer) - Open sourced by Yahoo -- `Java`
 * [MySQL Performance Tuning Cheat Sheet](https://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning -- `article`
+* [MySQL Performance Tuning Checklist](http://www.jonathanlevin.co.uk/2018/02/my-mysql-linux-tuning-checklist.html) - No bullshit list in about 15 bullet points -- `collection`
 * [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL -- `perl`
 * [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console, nice GUI -- `JavaScript`
 * [Percona Monitoring Plugins](https://www.percona.com/software/database-tools/percona-monitoring-plugins) - Some of the best mySQL plugins -- `various lang`
@@ -1197,6 +1198,7 @@
 * [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL -- `Python`
 * [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output -- `Python pip`
 * [pgBadger](https://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer -- `perl`
+* [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres - health checks, suggested indexes, and more -- `JavaScript`
 * [PGObserver](https://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard -- `Python`
 * [Silly Little Oracle Benchmark 2 (SLOB2)](https://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer -- `various lang`
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator -- `closed source`
@@ -1344,6 +1346,7 @@
 * [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
 * [Jailkit](https://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 * [Joe's Sandbox (Cloud Basic)](https://www.joesandbox.com/) - Deep automated malware analysis -- `in-browser`
+* [Kali NetHunter Linux Root Toolkit (LRT)](https://github.com/offensive-security/nethunter-LRT) - Collection of bash scripts that setup and install Kali Linux NetHunter from a Linux/OSX environment onto a NetHunter supported device -- `shell`
 * [Lynis](https://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
 * [Metasploit](https://www.metasploit.com/) - Classic exploit framework -- `various lang`
 * [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
@@ -1366,6 +1369,7 @@
 * [ProcDOT](http://www.procdot.com/) - All in one visual malware analysis and visualization, by CERN -- `closed source` `various lang`
 * [Qubes OS](https://www.qubes-os.org/) - A reasonably secure operating system -- `various lang`
 * [ReconScan](https://github.com/RoliSoft/ReconScan) - Glue together pen testing workflows IFTTT style -- `Python`
+* [Red Baron](https://github.com/Coalfire-Research/red-baron) - Automate creating resilient, disposable, secure and agile infrastructure for red teams, Terraform based -- `Golang`
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption -- `way cool`
 * [Regshot](https://sourceforge.net/projects/regshot/) - Snapshot and compare the Windows Registry for before/after analysis -- `C`
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
@@ -1451,7 +1455,6 @@
 * [Buildbot](https://buildbot.net/) - CI framework -- `Python`
 * [cwrap](https://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
-* [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of design patterns with examples -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for laptop tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker / containers, can also deploy to Kubernetes -- `Golang`
@@ -1467,13 +1470,10 @@
 * [Jenkins ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
-* [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
-* [Microsoft Cloud Design Patterns](https://msdn.microsoft.com/en-us/library/dn600223.aspx) - Ignore the cloud and Azure stuff and it's a great reference for general software dev -- `collection`
 * [MockServer](http://mock-server.com/) - Web server to remotely or locally mock HTTP/HTTPS and similar -- `Java`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
-* [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries -- `C`
 * [PEview](http://wjradburn.com/software/) - Easily and quickly view the structure and content of Windows EXE DDL LIB Portable Executable (PE) files -- `closed source`
 * [PRoot](http://proot.me/) - chroot, mount --bind, and binfmt_misc without privilege/setup -- `C`
@@ -1504,6 +1504,7 @@
 * [Mosh (Mobile Shell)](https://mosh.org/) - Remote shell that supports roaming (client IP address changes) and intermittent connectivity, by MIT -- `C++`
 * [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs -- `C`
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot -- `C`
+* [Shuttle](https://github.com/fitztrev/shuttle) - A simple SSH shortcut menu for macOS -- `Objective-C`
 * [ssh-chat](https://github.com/shazow/ssh-chat) Instead of a shell you get a chat prompt -- `Golang`
 * [ssh-ldap-helper](https://linux.die.net/man/8/ssh-ldap-helper) - Store public keys in LDAP -- `built-in`
 * [SSHFS](https://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel -- `built-in`
@@ -1551,13 +1552,11 @@
 * [BeeGFS](https://www.beegfs.com/content/) - Parallel cluster file system, worth examining -- `C++`
 * [CrystalDiskInfo](https://crystalmark.info/software/CrystalDiskInfo/index-e.html) - S.M.A.R.T. GUI tool for Windows -- `closed source` `Windows`
 * [FlashCache](https://github.com/facebookarchive/flashcache) - General purpose, write-back block cache -- `C`
-* [FreeNAS](http://www.freenas.org/) - BSD-based NAS, supports ZFS -- `C`
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - Modern NFS client-side caching -- `built-in`
-* [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, FC, FCoE, and other storage targets on Linux VMs -- `built-in`
+* [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, Fibre Channel, FC over Ethernet, and other storage targets from Linux VMs -- `built-in`
 * [Linux Journal - Linux Swap Space](https://www.linuxjournal.com/article/10678) - Superb article about Linux swap, includes some tuning parameters -- `article`
 * [lsblk](https://linux.die.net/man/8/lsblk) - List block devices -- `built-in`
 * [ncdu](https://linux.die.net/man/1/ncdu) - ncurses version of "du" -- `built-in`
-* [OpenFiler](https://www.openfiler.com/) - Linux-based NAS, supports most protocols and storage types -- `C`
 * [Parted Magic](https://partedmagic.com/) - Resize, grow, shrink, clone, recovery, wiping, benchmarking, and more.  Supports Linux and Windows file systems -- `Windows`
 * [snapper](http://snapper.io/) - CLI tool to manage Btrfs snapshots, snapshot timelines, and more -- `various lang`
 * [System Storage Manager (SSM)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-ssm.html) - Generic CLI for managing all types of storage (DM, LVM, multipath), added in RHEL 7 -- `built-in`
@@ -1606,6 +1605,7 @@
 * [tmux](https://github.com/tmux/tmux/wiki) - Alternative to GNU screen, also used for terminal sharing -- `C`
 * [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH for tmux -- `shell`
 * [tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect) - Persists tmux environment across system restarts -- `shell`
+* [Warp](https://github.com/spolu/warp) - Securely share your terminal, like handing a co-worker your keyboard -- `Golang`
 * [WinSCP](https://winscp.net) - The well-known SCP client -- `C` `Windows`
 * [x2go](https://wiki.x2go.org/doku.php) - One of the best remote-desktop-over-SSH clients -- `Windows` `OS X`
 * [Xshell](https://www.netsarang.com/products/xsh_overview.html) - SSH client for Windows, free for personal use -- `closed source` `Windows`
@@ -1651,26 +1651,36 @@
 ---
 ## Virtualization and SDN
 
-> OS and network virtualization and emulation including SDN - see also [Containers](#containers) for container-only network meshes and [VMware Tools](#vmware-tools)
+> OS, network, and storage virtualization, emulation, and simulation including SDN, load balancers, and firewalls - see also [Containers](#containers) for container-only network meshes and [VMware Tools](#vmware-tools)
 
 * [BusyBox](https://busybox.net/) - Bootable Linux with tiny versions of many common UNIX utilities in a single small executable -- `C`
 * [Calico](http://www.projectcalico.org/) - L3 fabric that runs a vRouter on each node, supports containers -- `Python`
 * [DOSbox](https://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities -- `C` `C++`
+* [FreeNAS](http://www.freenas.org/) - BSD-based NAS, supports ZFS -- `C`
 * [GNS3](https://www.gns3.com/) - Cisco and other network simulator that runs in VirtualBox or Qemu/KVM -- `Python`
+* [HAproxy](https://www.haproxy.org/) - Open source software load balancer -- `C`
 * [KVM (Kernel Virtual Machine)](http://www.linux-kvm.org/page/Main_Page) - The one, the only -- `C`
 * [kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains -- `C`
 * [KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently -- `collection`
 * [libvirt](https://libvirt.org/) - Open source API, daemon and management tool, used with many virtualization solutions -- `C`
+* [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, Fibre Channel, FC over Ethernet, and other storage targets from Linux VMs -- `built-in`
 * [Mininet](http://mininet.org/) - Easily setup networks for testing on your laptop with VirutalBox -- `various lang`
+* [Minio](https://github.com/minio/minio) - An open source object storage server compatible with Amazon S3 APIs -- `Golang`
 * [ns-3](https://www.nsnam.org/) - Network simulator, mostly focuses on wireless IP such as Wi-Fi, WiMAX, or LTE and routing protocols such as OLSR and AODV -- `C`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
+* [OpenFiler](https://www.openfiler.com/) - Linux-based NAS, supports most protocols and storage types -- `C`
 * [Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization -- `C` `C++` `Windows` `OS X`
 * [oVirt](https://www.ovirt.org/Home) - Virtualization management platform, the upstream for Red Hat Enterprise Virtualization (RHEV) -- `Java`
 * [Packet Tracer](https://www.netacad.com/courses/packet-tracer-download/) - Cisco network simulator, by Cisco -- `closed source` `Windows` `OS-X`
+* [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and live CDs -- `C`
 * [phpVirtualBox](http://sourceforge.net/projects/phpvirtualbox/) - Web front-end for VirtualBox -- `PHP`
 * [QEMU (Quick EMUlator)](https://wiki.qemu.org/Main_Page) - Also supports hardware emulation (SPARC, RISC, etc) -- `C`
+* [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
+* [Shadow](https://github.com/shadow/shadow) - Network simulator that runs real applications like Tor and distributed systems of thousands of nodes on a single machine -- `C`
+* [Squid](http://www.squid-cache.org/) - Reverse proxy, caching server, web traffic filter, and more -- `C++`
 * [Unicorn Engine](https://github.com/unicorn-engine/unicorn) - CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, X86) via QEMU -- `various lang`
 * [virt-manager](https://virt-manager.org/) - KVM / Xen / LXC GUI -- `Python`
+* [WANem (Wide Area Network Emulator)](http://wanem.sourceforge.net/) - WAN emulator -- `C`
 * [WINE](https://www.winehq.org/) - Compatibility layer for running Windows apps on POSIX-compliant OSes -- `C` `OS X`
 * [Xen](https://www.xenproject.org/) - It's a hypervisor! -- `C`
 * [XenServer](https://xenserver.org/) - Successor to Xen Cloud Platform (XCP) -- `C`
@@ -1709,13 +1719,15 @@
 > VPN client & servers, tunneling proxies, DNS tunneling, simple host-to-host tunnels, and related tools - see also [SSL Tools](#ssl-tools) and [SSH Tools](#ssh-tools) and [Virtualization and SDN](#virtualization-and-sdn)
 
 * [Algo VPN](https://github.com/trailofbits/algo) - IKEv2 Ubuntu-based strongSwan VPN server deployed to any cloud via Ansible -- `Python`
-* [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + SSSD + Google Authenticator -- `tutorial`
+* [AutoVPN](https://github.com/ttlequals0/autovpn) - Spin up and autoconfigure OpenVPN instances in AWS -- `Python`
+* [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + SSSD + Google Authenticator -- `stepbystep`
 * [Corkscrew](https://github.com/bryanpkc/corkscrew) - Tunnel SSH through HTTP proxies -- `C`
 * [DNS Leak Test](https://www.dnsleaktest.com/) - See if DNS queries are leaking outside of your VPN / secured network -- `in-browser`
 * [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) - DNS proxy, with support for modern encrypted DNS protocols such as DNSCrypt v2 and DNS-over-HTTP/2 -- `Golang`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA), authoriation packet from you opens firewall rules so only you can get in -- `various lang`
 * [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
+* [Go HTTP Tunnel](https://github.com/mmatczuk/go-http-tunnel) - Fast and secure reverse tunnels over HTTP/2 and TLS, share localhost without having a public IP -- `Golang`
 * [kcptun](https://github.com/xtaci/kcptun) - Secure and fast tunnel based on KCP, can increase throughput -- `Golang`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
 * [MACsec aka 802.1AE](https://en.wikipedia.org/wiki/IEEE_802.1AE) - Use me for confidentiality and integrity at layer 2, useful for WAN links -- `standard`
@@ -1725,14 +1737,15 @@
 * [Pritunl](http://pritunl.com/) - Distributed enterprise VPN server built using the OpenVPN protocol, supports Google sign-in -- `Python`
 * [Shadowsocks](https://github.com/shadowsocks) - A secure socks5 proxy, designed to protect your Internet traffic -- `various lang` `most platforms`
 * [SoftEther](http://www.softether.org/) - Perhaps the best VPN software out there -- `C`
-* [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using PSKs, similar to ssh -L -- `C`
+* [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using pre-shared keys (PSKs), similar to ssh -L -- `C`
 * [sshttp](https://github.com/stealth/sshttp) - Port multiplexer that hides a SSH daemon behind HTTP, HTTPS, or SMTP on a single port -- `C`
-* [sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling -- `Python` `OS X`
+* [sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server / VPN, doesn't need admin, forwards over SSH, supports DNS tunneling -- `Python` `OS X`
 * [SSH Through or Over Proxy](https://daniel.haxx.se/docs/sshproxy.html) - How to create a HTTP(s) tunnel for your SSH traffic -- `article`
+* [Streisand](https://github.com/StreisandEffect/streisand) - Set up a server running a wide variety of privacy software, so easy that grandma can use it, Ansible-based -- `Python`
 * [strongSwan](https://www.strongswan.org/) - IPsec-based -- `C`
 * [stunnel](https://www.stunnel.org/index.html) - Create simple TLS tunnels for existing services (eg: telnet, nc, etc) -- `C`
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN -- `C`
-* [WireGuard](https://www.wireguard.io/) - In-kernel VPN server that's simple, performant, and provides next generation cryptography -- `C`
+* [WireGuard](https://www.wireguard.com/) - Performant in-kernel VPN server with DJB Crypto and very modern primitives -- `C`
 * [Ubuntu IKEv2 VPN Setup](https://github.com/jawj/IKEv2-setup) - Simple script that sets up a IKEv2 VPN with strongSwan on Ubuntu -- `shell`
 
 
@@ -1834,9 +1847,9 @@
 
 
 ---
-## Misc Tools and Utilities
+## Misc Tools and Learning Opportunities
 
-> Everything else
+> Everything else - see also everything else
 
 * [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
@@ -1844,9 +1857,12 @@
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 * [BlueStacks](https://www.bluestacks.com/) - Android emulator that you can run on Windows, run apps from the Play store, etc -- `various lang`
 * [Caffeine](http://lightheadsw.com/caffeine/) - Simple menu bar app to stop your Mac from sleeping -- `closed source` `OS X`
+* [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud -- `collection`
 * [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `shell`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
+* [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
@@ -1860,19 +1876,27 @@
 * [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
+* [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
 * [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
+* [Networking Cheat Sheets by PacketLife](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more -- `collection`
+* [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 * [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 * [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 * [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
+* [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
+* [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
+* [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
 * [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, allows a user a to record themselves reproducing a problem -- `closed source`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
+* [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 * [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
+* [Vim Adventures](https://vim-adventures.com/) - A game to learn  vi / vim using your browser -- `in-browser`
