@@ -186,6 +186,7 @@
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [CloudBerry Explorer](https://www.cloudberrylab.com/explorer/amazon-s3.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
+* [CloudMapper](https://github.com/duo-labs/cloudmapper) - Generates network diagrams of Amazon Web Services (AWS) environments and displays them via your browser, by Duo Security -- `Python`
 * [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 * [ec2instances.info](https://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
@@ -262,7 +263,7 @@
 * [Chef Supermarket (community)](https://supermarket.chef.io/) - Official community site for cookbooks -- `various lang`
 * [Chef Supermarket (self-hosted)](https://github.com/chef/supermarket) - Cookbook repository for Chef, can be hosted internally -- `Ruby`
 * [Citadel](https://github.com/poise/citadel) - Cookbook to store secrets in AWS S3 buckets using EC2 and IAM -- `Ruby`
-* [Foodcritic](https://acrmp.github.io/foodcritic/) - Chef linter and static code analysis -- `Ruby gem`
+* [Foodcritic](http://www.foodcritic.io/) - Chef linter and static code analysis -- `Ruby gem`
 * [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends, by Facebook -- `Ruby`
 * [Handlers](https://docs.chef.io/handlers.html#community-handlers) - The official list of community written handlers (Airbrake, IRC, Campfire, etc) -- `Ruby`
 * [Itamae](https://github.com/itamae-kitchen/itamae) - CM tool inspired by Chef, but simpler and lightweight, formerly LightChef -- `Ruby gem`
@@ -424,7 +425,7 @@
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
 * [Project Atomic](https://www.projectatomic.io/) - Super stripped down Linux OS designed to only run containers and nothing more, aka RHEL Atomic -- `various lang`
-* [Prometheus Operator](https://github.com/coreos/prometheus-operator) - creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
+* [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
@@ -483,7 +484,7 @@
 ---
 ## Distributed Systems Tools
 
-> DCOSes, microservices, service discovery, schedulers, tracing, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools) and [Containers](#containers)
+> DCOSes, microservices, service discovery, schedulers, Mesos, and related tools for dynamic, warehouse-scale computing - see also [Containers](#containers) and [HPC Tools](#hpc-tools)
 
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Avro](https://avro.apache.org/) - Data serialization system with backwards compatible schemas -- `Java`
@@ -501,8 +502,6 @@
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix -- `Java`
 * [fabio](https://github.com/eBay/fabio) - Zero-conf load balancing HTTP(S) router for deploying microservices managed by Consul, by eBay -- `Golang`
 * [Flink](https://flink.apache.org) - Next-generation true stream processing platform for real-time analytics -- `Java`
-* [HAproxy](https://www.haproxy.org/) - Open source software load balancer -- `C`
-* [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit -- `Ruby gem`
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
 * [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes, service mesh control plane -- `various lang`
@@ -511,7 +510,6 @@
 * [Kong](https://getkong.org/) - Microservice / API management layer -- `Lua`
 * [linkerd](https://linkerd.io/) - RPC proxy and request routing for microservices, includes service discovery, instrumentation, and load balancing, data plane service mesh -- `Scala`
 * [LogDevice](https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/?_fb_noscript=1) - A distributed data store for logs, by Facebook -- `C++`
-* [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer, by MariaDB -- `C`
@@ -521,7 +519,6 @@
 * [Mesosphere](https://mesosphere.com/) - Apache Mesos schedulers for almost anything, commercial support is available -- `C++`
 * [miniMesos](https://www.minimesos.org/) - Spin up Mesos clusters on your OS X laptop, can be used for TDD too -- `Java`
 * [Mitogen](https://mitogen.readthedocs.io/en/latest/) - Python library for writing distributed self-replicating programs like magic -- `Python`
-* [Multibinder](https://github.com/github/multibinder) - Simple Ruby server that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
 * [Pulsar](https://pulsar.apache.org/) - A Kafka alternative, by Yahoo -- `Java`
@@ -529,7 +526,6 @@
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Ringpop](https://github.com/uber/ringpop-go) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
-* [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [Serf](https://www.serfdom.io/) - Decentralized solution for service discovery and orchestration -- `Golang`
 * [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
 * [Spark](https://spark.apache.org) - Near real-time analytics processing platform, succeeded by Flink (real streaming vs Spark's microbatches) -- `various lang`
@@ -643,11 +639,12 @@
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs -- `C`
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
 * [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
-* [Multibinder](https://github.com/github/multibinder) - Simple Ruby server that makes true zero downtime reloads simple, by Github -- `Ruby`
+* [Multibinder](https://github.com/github/multibinder) - Simple Ruby daemon that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `lost-to-the-internet` `C`
 * [rmanager](https://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
+* [Traefik](https://github.com/containous/traefik) - Modern HTTP reverse proxy and load balancer, supports many backends -- `Golang`
 * [UCARP](https://www.pureftpd.org/project/ucarp) - VIP management using the CARP protocol -- `C`
 
 
@@ -936,7 +933,7 @@
 * [csshX](https://github.com/brockgr/csshx) - Cluster SSH for OS X -- `C`
 * [Fabric](http://www.fabfile.org/) - Uses paramiko to implement a higher-level API for performing commands over SSH, particularly for deployment sysadmin tasks  -- `Python pip`
 * [KeyBox](https://sshkeybox.com/) - Web-based SSH console that executes commands on multiple shells simultaneously and supports terminal sharing -- `Java`
-* [KeyBox-OpenShift](https://github.com/skavanagh/KeyBox-OpenShift) - KeyBox for OpenShift gears `Java`
+* [KeyBox-OpenShift](https://github.com/skavanagh/KeyBox-OpenShift) - KeyBox for OpenShift gears -- `Java`
 * [ManageIQ](http://manageiq.org/) - Upstream OSS project for Red Hat's CloudForms -- `Ruby`
 * [Mass Parallel SSH (mpssh)](https://github.com/ndenev/mpssh) - Simple parallel SSH -- `C`
 * [mcollective (Marionette Collective)](https://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet -- `Ruby gem`
@@ -953,7 +950,7 @@
 * [Rubber](http://rubber.io/) - Capistrano/rails plugin that makes it easy to deploy/manage/scale to various service providers -- `Ruby`
 * [Rundeck](http://rundeck.org/) - Job scheduler and runbook automation, enable self-service access to existing scripts and tools -- `Groovy`
 * [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
-* [Spacewalk](https://www.spacewalkproject.org/) - Remote commands/orchestration, patch management, and more - the upstream for Red Hat Satellite  -- `various lang`
+* [Spacewalk](https://www.spacewalkproject.org/) - Remote commands/orchestration, patch management, and more - the upstream for Red Hat Satellite 5.x and earlier -- `various lang`
 * [Teleport](https://gravitational.com/teleport/) - Front-end for teams, includes session capture and replay, auditing, 2FA, session sharing, and more -- `Golang`
 * [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH via tmux -- `shell`
 * [xCAT (Extreme Cloud Administration Toolkit)](http://xcat.org/) - Complete all in one management solution (provisioning, orchestration, management, etc) supports almost every UNIX and next generation platform, by IBM -- `legit`
@@ -977,6 +974,7 @@
 * [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL) - Supports CentOS, RHEL, Scientific Linux, and Oracle Linux -- `repo`
 * [Extra Packaging Guidelines and Policies for EPEL](https://fedoraproject.org/wiki/EPEL/GuidelinesAndPolicies) - Packaging guidelines, great even if not creating EPEL stuff -- `readit`
 * [Fedora Packaging Guidelines](https://fedoraproject.org/wiki/Packaging:Guidelines) - Excellent information that can be applied to CentOS & RHEL -- `readit`
+* [Flatpak](https://flatpak.org/) - Standalone, sandboxed apps so you can avoid package management all together -- `C`
 * [fpm (Fucking Package Management)](https://github.com/jordansissel/fpm) - Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity -- `Ruby gem`
 * [fpm-cookery](https://github.com/bernd/fpm-cookery) - Tool for building software packages with FPM -- `Ruby gem`
 * [Homebrew (aka brew)](https://brew.sh/) - Tons of packages for Mac -- `Ruby` `OS X`
@@ -1038,9 +1036,9 @@
 
 > OS provisioning, image creation, installation, bootstrapping, and lifecycle management - see also [Package Patch and Repository Tools](#package=patch-and-repository-tools) and [Containers](#containers) and [Distributed Systems Tools](#distributed-systems-tools) and [Live CD Tools](#live-cd-tools)
 
+* [Bento](https://github.com/chef/bento#current-baseboxes) - Baseboxes provided by Chef, for Packer + Vagrant -- `various lang`
 * [bootrino](https://www.bootrino.com/) - Provision run-in-RAM / diskless OSes (Linux, etc) in various clouds -- `various lang`
 * [Box-Cutter](https://github.com/boxcutter) - Hashicorp's community repo for Packer & Vagrant templates -- `Ruby`
-* [Chef Baseboxes](https://github.com/chef/bento#current-baseboxes) - Baseboxes provided by Chef, for Packer + Vagrant -- `various lang`
 * [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types -- `perl` `shell`
 * [cloud-init](https://launchpad.net/cloud-init) - Configures settings the first time a system spins up (SSH keys, hostname, variables, etc), note NoCloud -- `C`
 * [Cobbler](https://cobbler.github.io/) - Provisioning system used in Red Hat's Satellite -- `Python`
@@ -1343,6 +1341,7 @@
 * [hashcat](https://hashcat.net/hashcat/) - World's fastest CPU password cracker / password recovery -- `C`
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Dree malware analysis service that detects and analyzes unknown threats using a unique *Hybrid Analysis* -- `in-browser`
 * [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
+* [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
 * [Jailkit](https://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 * [Joe's Sandbox (Cloud Basic)](https://www.joesandbox.com/) - Deep automated malware analysis -- `in-browser`
@@ -1620,6 +1619,7 @@
 * [eBPF](http://www.brendangregg.com/ebpf.html) - DTrace + SystemTap, requires 4.x kernel, mostly uses bcc -- `various lang`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [Linux Trace Toolkit - Next Generation (LLTng)](https://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap -- `C`
+* [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
 * [ltrace Tutorial](https://developerblog.redhat.com/2014/07/10/ltrace-for-rhel-6-and-7/) - ltrace (library call tracer) tutorial by Red Hat -- `article`
 * [lttng-analyses](https://github.com/lttng/lttng-analyses) - Official collection of LLTNG scripts and snippets -- `collection`
 * [Mastif Visualizer](https://projects.kde.org/projects/extragear/sdk/massif-visualizer) - Visualizer for the Valgrind's Mastiff utility -- `C++`
@@ -1646,6 +1646,7 @@
 * [Nitrokey](https://www.nitrokey.com/) - Open source thumb drive for authentication -- `various lang`
 * [pam-u2f](https://developers.yubico.com/pam-u2f/) - PAM module for auth via U2F compatible devices, by YubiKey -- `C`
 * [yubico-pam](https://developers.yubico.com/yubico-pam/) - PAM module for use with YubiKey devices -- `C`
+* [yubikey-full-disk-encryption](https://github.com/agherzan/yubikey-full-disk-encryption) - Encrypt storage on a LUKS partition using a Yubikey -- `Shell`
 
 
 ---
@@ -1659,11 +1660,13 @@
 * [FreeNAS](http://www.freenas.org/) - BSD-based NAS, supports ZFS -- `C`
 * [GNS3](https://www.gns3.com/) - Cisco and other network simulator that runs in VirtualBox or Qemu/KVM -- `Python`
 * [HAproxy](https://www.haproxy.org/) - Open source software load balancer -- `C`
+* [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit -- `Ruby gem`
 * [KVM (Kernel Virtual Machine)](http://www.linux-kvm.org/page/Main_Page) - The one, the only -- `C`
 * [kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains -- `C`
 * [KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently -- `collection`
 * [libvirt](https://libvirt.org/) - Open source API, daemon and management tool, used with many virtualization solutions -- `C`
 * [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, Fibre Channel, FC over Ethernet, and other storage targets from Linux VMs -- `built-in`
+* [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
 * [Mininet](http://mininet.org/) - Easily setup networks for testing on your laptop with VirutalBox -- `various lang`
 * [Minio](https://github.com/minio/minio) - An open source object storage server compatible with Amazon S3 APIs -- `Golang`
 * [ns-3](https://www.nsnam.org/) - Network simulator, mostly focuses on wireless IP such as Wi-Fi, WiMAX, or LTE and routing protocols such as OLSR and AODV -- `C`
@@ -1678,6 +1681,7 @@
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [Shadow](https://github.com/shadow/shadow) - Network simulator that runs real applications like Tor and distributed systems of thousands of nodes on a single machine -- `C`
 * [Squid](http://www.squid-cache.org/) - Reverse proxy, caching server, web traffic filter, and more -- `C++`
+* [Traefik](https://github.com/containous/traefik) - Modern HTTP reverse proxy and load balancer, supports many backends -- `Golang`
 * [Unicorn Engine](https://github.com/unicorn-engine/unicorn) - CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, X86) via QEMU -- `various lang`
 * [virt-manager](https://virt-manager.org/) - KVM / Xen / LXC GUI -- `Python`
 * [WANem (Wide Area Network Emulator)](http://wanem.sourceforge.net/) - WAN emulator -- `C`
@@ -1726,7 +1730,6 @@
 * [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) - DNS proxy, with support for modern encrypted DNS protocols such as DNSCrypt v2 and DNS-over-HTTP/2 -- `Golang`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA), authoriation packet from you opens firewall rules so only you can get in -- `various lang`
-* [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [Go HTTP Tunnel](https://github.com/mmatczuk/go-http-tunnel) - Fast and secure reverse tunnels over HTTP/2 and TLS, share localhost without having a public IP -- `Golang`
 * [kcptun](https://github.com/xtaci/kcptun) - Secure and fast tunnel based on KCP, can increase throughput -- `Golang`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
@@ -1879,6 +1882,7 @@
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
+* [Multibinder](https://github.com/github/multibinder) - Simple Ruby daemon that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
@@ -1893,7 +1897,7 @@
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
-* [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, allows a user a to record themselves reproducing a problem -- `closed source`
+* [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
