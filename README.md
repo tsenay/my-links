@@ -370,7 +370,7 @@
 * [RANCID - (Really Awesome New Cisco confIg Differ)](http://www.shrubbery.net/rancid/) - Pulls and saves network device configs and saves them into a CVS, now supports git -- `C`
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine -- `Scala`
 * [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
-
+* [dy](https://github.com/sampointer/dy) Create yaml struct from file tree
 
 ---
 ## Containers
@@ -1091,6 +1091,7 @@
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments -- `Python pip`
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv -- `Python pip`
 * [xlwings](https://xlwings.org/) - Replace your Excel VBA code with Python -- `Python pip`
+* [pyOperator] (https://github.com/flant/examples/tree/master/2019/08-k8s-python-operator) Kubernetes operator in python
 
 
 ---
